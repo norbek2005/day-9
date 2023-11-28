@@ -1,0 +1,40 @@
+.header__nav {
+    padding: 44px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    gap: 33px;
+}
+
+.header__pages {
+    color: #83888F;
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+
+.header__pages:hover{
+    color: #333D4B;
+}
+
+.header__bar{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .header__list{
+        display: none;
+
+    }
+
+    .header__bar{
+        display: inline-block;
+    }
+}
